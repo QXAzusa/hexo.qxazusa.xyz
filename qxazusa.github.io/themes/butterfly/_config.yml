@@ -849,6 +849,7 @@ inject:
    - <link rel="stylesheet" href="/css/background.css">
    - <link rel="stylesheet" href="/css/partbackground.css">
    - <link rel="stylesheet" href="/css/footer.css">
+   - <meta name="baidu-site-verification" content="code-FyCXBkDakB" />
   bottom:
     # - <script src="xxxx"></script>
 
