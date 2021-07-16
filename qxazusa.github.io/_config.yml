@@ -101,10 +101,7 @@ theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: https://github.com/QXAzusa/qxazusa.github.io
-  branch: main
+
   
 # Live2D
 ## https://github.com/EYHN/hexo-helper-live2d
