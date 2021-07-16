@@ -160,3 +160,6 @@ bangumi:
    color: rgb(31, 45, 61)
    webp: true
    progress: true
+
+aplayer:
+  meting: true
