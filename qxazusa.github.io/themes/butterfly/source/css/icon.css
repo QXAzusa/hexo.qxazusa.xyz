@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "iconfont"; /* Project id 2673431 */
+    src: url('//at.alicdn.com/t/font_2673431_q2nrbzwuc1a.woff2?t=1626316115997') format('woff2'), url('//at.alicdn.com/t/font_2673431_q2nrbzwuc1a.woff?t=1626316115997') format('woff'), url('//at.alicdn.com/t/font_2673431_q2nrbzwuc1a.ttf?t=1626316115997') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-huaban88:before {
+    content: "\e61a";
+    color: rgb(0,0,0);
+    font-size: 25px;
+    position: relative;
+    top: 0.9px;
+}
+
+.icon-you-tube:before {
+    content: "\e601";
+    color: rgb(201, 31, 55);
+    font-size: 25px;
+    position: relative;
+    top: 2px;
+}
+
+.icon-ttww:before {
+    content: "\e600";
+    color: rgb(18, 150, 219);
+    font-size: 25px;
+    position: relative;
+    top: 2px;
+}
+
+.icon-bilibili-line:before {
+    content: "\e66d";
+    color: rgb(18, 150, 219);
+    font-size: 25px;
+    position: relative;
+    top: 2px;
+}
+
+.icon-bilibili-linew:before {
+    content: "\e66d";
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: relative;
+    top: 2.1px;
+}
+
+.icon-rili:before {
+    content: "\e624";
+    font-size: 15px;
+}
+
+.icon-xiaoxi:before {
+    content: "\e740";
+    font-size: 14px;
+}
+
+.icon-Telegram:before {
+    content: "\e6f2";
+    color: rgb(18, 150, 219);
+    font-size: 19px;
+    position: relative;
+    top: -1px;
+}
+
+.icon-A-29:before {
+    content: "\e619";
+    color: rgb(76, 73, 72);
+    font-size: 14px;
+}

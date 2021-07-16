@@ -1,0 +1,89 @@
+# Header
+menu:
+  Home: /
+  #Archives: /archives
+  Categories: /categories
+  Tags: /tags
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: left
+widgets:
+- nav
+- about
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# widget behavior
+archive_type: 'monthly'
+show_count: false
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
+
+
+# GalMenu - PC端右键调出，移动端长按
+# galmenu决定是否开启
+# mp3play决定是否开启音效
+galmenu: false
+mp3play: false
+gaymenu_item:
+- name: 首页
+  url : /
+- name: 标签
+  url : /tags
+- name: 分类
+  url : /categories
+
+# 社交链接
+social:
+- url: http://github.com/QXAzusa
+  name: Github
+- url: https://twitter.com/jshahezy
+  name: Twitter
+- url: https://space.bilibili.com/148833361
+  name: Bilibili
+- url: https://www.youtube.com/channel/UCs99qqi1OuBItpkqtMAD4jA
+  name: Youtube
+
+# 友情链接
+# name : url
+#link_title: 友情链接
+#links:
+#  ShanaMaid: http://blog.shanamaid.top/
+
+
+# Sidebar Avatar
+# in theme directory(source/images): /images/avatar.jpg
+# in site  directory(source/uploads): /uploads/avatar.jpg
+# 头像
+avatar: https://link.jscdn.cn/sharepoint/aHR0cHM6Ly9oZXp5LW15LnNoYXJlcG9pbnQuY29tLzppOi9nL3BlcnNvbmFsL2pzaGFoZXp5X2hlenlfb25taWNyb3NvZnRfY29tL0VlSXZpMm8wTlQxR3QwTTMwRkpIV3RrQmpjOWNjVDJmWUcwZmd3WllVT2cwanc_ZT1zVmNhRXc.jpg
+# 网站统计
+# 站长统计 填写id
+# eg:　
+# CNZZ: 123456789
+CNZZ: 
+
+# 评论
+# 友言uid
+uyan: 
+
+# leadcloud访问次数统计
+# 
+leancloud_visitors:
+  enable: false
+  app_id: 
+  app_key: 
