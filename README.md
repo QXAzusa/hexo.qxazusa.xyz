@@ -1,2 +1,1 @@
-# 网站blog.qxazusa.xyz的项目源码
-
+# qxazusa.xyz系网站的项目源码
