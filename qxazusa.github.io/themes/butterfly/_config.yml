@@ -49,7 +49,7 @@ social:
    iconfont icon-Telegram: https://t.me/QXAzusa || Telegram
    iconfont icon-bilibili-line: https://space.bilibili.com/148833361 || Bilibili
    iconfont icon-you-tube: https://www.youtube.com/channel/UCs99qqi1OuBItpkqtMAD4jA || Youtube
-   
+
 # search (搜索)
 # --------------------------------------
 
@@ -97,7 +97,7 @@ avatar:
 disable_top_img: true
 
 # The banner image of home page
-index_img: 
+index_img:
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: https://cdn.jsdelivr.net/npm/qxazusa-blog/5005df7fec55a8b4980d0426566114f8c64df94a-min.webp
@@ -296,7 +296,7 @@ disqusjs:
   api: https://disqus.skk.moe/disqus/
   nocomment: 输入点东西 # display when a blog post or an article has no comment attached
   admin: qxazusa
-  adminLabel: 
+  adminLabel:
 
 # livere (來必力)
 # https://www.livere.com/
@@ -826,7 +826,7 @@ lazyload:
 # See https://github.com/JLHwung/hexo-offline
 # ---------------
 # pwa:
-#   enable: false	
+#   enable: false
 #   manifest: /pwa/manifest.json
 #   apple_touch_icon: /pwa/apple-touch-icon.png
 #   favicon_32_32: /pwa/32.png
@@ -845,7 +845,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-   - <link rel="stylesheet" href="/css/icon.css" media="defer" onload="this.media='all'">  
+   - <link rel="stylesheet" href="/css/icon.css" media="defer" onload="this.media='all'">
    - <link rel="stylesheet" href="/css/background.css">
    - <link rel="stylesheet" href="/css/partbackground.css">
    - <link rel="stylesheet" href="/css/footer.css">
