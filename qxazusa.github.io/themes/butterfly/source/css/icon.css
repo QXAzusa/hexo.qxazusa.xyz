@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 2673431 */
-  src: url('//at.alicdn.com/t/font_2673431_90yl4np1gkd.woff2?t=1626425374666') format('woff2'),
-       url('//at.alicdn.com/t/font_2673431_90yl4np1gkd.woff?t=1626425374666') format('woff'),
-       url('//at.alicdn.com/t/font_2673431_90yl4np1gkd.ttf?t=1626425374666') format('truetype');
+  src: url('//at.alicdn.com/t/font_2673431_lfuz8nvok.woff2?t=1627896044571') format('woff2'),
+       url('//at.alicdn.com/t/font_2673431_lfuz8nvok.woff?t=1627896044571') format('woff'),
+       url('//at.alicdn.com/t/font_2673431_lfuz8nvok.ttf?t=1627896044571') format('truetype');
 }
 
 .iconfont {
@@ -55,11 +55,13 @@
 
 .icon-rili:before {
     content: "\e624";
+    color: rgb(0, 0, 0);
     font-size: 15px;
 }
 
 .icon-xiaoxi:before {
     content: "\e740";
+    color: rgb(0, 0, 0);
     font-size: 14px;
 }
 
@@ -73,8 +75,9 @@
 
 .icon-A-29:before {
     content: "\e619";
-    color: rgb(76, 73, 72);
-    font-size: 14px;
+    color: rgb(0,0,0);
+    font-size: 14.5px;
+    left: 2px;
 }
 
 .icon-yinyue:before {
@@ -83,4 +86,45 @@
     font-size: 20px;
     position: relative;
     top: 2px;
+}
+
+.icon-biaoqian1:before {
+  content: "\e621";
+  color: rgb(0, 0, 0);
+  font-size: 15.5px;
+  position: relative;
+  top: 1px;
+}
+
+.icon-xiangce:before {
+  content: "\e628";
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  position: relative;
+  top: -1px;
+}
+
+.icon-xin:before {
+  content: "\e639";
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  position: relative;
+  top: 0.4px;
+}
+
+.icon-icon:before {
+  content: "\e60d";
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  position: relative;
+  top: 0.5px;
+}
+
+.icon-xiangce1:before {
+  content: "\ea8e";
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  position: relative;
+  left: -1.5px;
+  top: 0.5px;
 }

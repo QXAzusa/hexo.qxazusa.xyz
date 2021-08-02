@@ -7,12 +7,13 @@
 #   name: link || icon
 
 menu:
-  首页: / || fas fa-home
+  首页: / || iconfont icon-icon
   时间轴: /archives/ || iconfont icon-rili
-  标签: /tags/ || fas fa-tags
+  标签: /tags/ || iconfont icon-biaoqian1
   追番: /bangumis/index.html || iconfont icon-A-29
+  相册: /Gallery/index.html || iconfont icon-xiangce1
   留言板: /comments/index.html || iconfont icon-xiaoxi
-  关于我: /about/about.html || fas fa-heart
+  关于我: /about/about.html || iconfont icon-xin
   # Categories: /categories/ || fas fa-folder-open
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
