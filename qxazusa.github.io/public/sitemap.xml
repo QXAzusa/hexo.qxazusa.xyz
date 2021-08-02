@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blogs.qxazusa.xyz/Gallery/cosplay/index.html</loc>
+    
+    <lastmod>2021-08-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blogs.qxazusa.xyz/Gallery/index.html</loc>
+    
+    <lastmod>2021-08-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blogs.qxazusa.xyz/Gallery/wallpaper/index.html</loc>
+    
+    <lastmod>2021-08-02</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blogs.qxazusa.xyz/2021/07/15/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96%E8%AE%B0%E5%BD%95/</loc>
     
     <lastmod>2021-07-16</lastmod>
@@ -67,7 +88,7 @@
 
   <url>
     <loc>https://blogs.qxazusa.xyz/</loc>
-    <lastmod>2021-07-27</lastmod>
+    <lastmod>2021-08-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,7 +96,7 @@
   
   <url>
     <loc>https://blogs.qxazusa.xyz/tags/%E5%BB%BA%E7%AB%99/</loc>
-    <lastmod>2021-07-27</lastmod>
+    <lastmod>2021-08-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
