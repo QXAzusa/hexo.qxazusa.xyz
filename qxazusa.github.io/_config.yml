@@ -105,7 +105,7 @@ deploy:
   type: git
   repo: https://github.com/QXAzusa/qxazusa.github.io
   branch: main
-  
+
 # Live2D
 ## https://github.com/EYHN/hexo-helper-live2d
 live2d:
@@ -130,7 +130,7 @@ live2d:
     height: 400 #控制看板娘大小
   mobile:
     show: false # 手机中是否展示
-  
+
  # envelope_comment
  # see https://akilar.top/posts/e2d3c450/
 envelope_comment:
@@ -147,13 +147,13 @@ envelope_comment:
  front_matter: #【可选】comments页面的 front_matter 配置
  title: 留言板
  comments: true
-      
+
 bangumi:
    enable: true
    path: bangumis/index.html
    vmid: 148833361
    title: '追番列表'
-   quote: '生命不息，追番不止！'
+   quote: '如果真爱有颜色，那一定是蓝色'
    show: 1
    loading: /img/loading.png
    metaColor: #1F2D3D
