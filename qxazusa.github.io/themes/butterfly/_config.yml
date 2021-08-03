@@ -657,7 +657,7 @@ aside:
       link: https://space.bilibili.com/148833361
   card_announcement:
     enable: true
-    content: 嘘，你来到了一个神秘的地方，但她似乎没准备好，等等再来吧
+    content: 嘘，你来到了一个神秘的地方
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -732,7 +732,7 @@ readmode: true
 
 # dark mode
 darkmode:
-  enable: true
+  enable: false
   # Toggle Button to switch dark/light mode
   button: true
   # Switch dark/light mode automatically (自動切換 dark mode和 light mode)
