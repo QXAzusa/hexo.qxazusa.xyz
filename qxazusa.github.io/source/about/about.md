@@ -1,6 +1,7 @@
 ---
 title: 关于我
 date: 2021-07-12 21:25:31
+comments: false
 ---
 <img src="https://cdn.jsdelivr.net/npm/qxazusa-blog/me.png" align="middle"/>
 <p>02年，坐标淮安，在读大学生，信息工程专业</p>
