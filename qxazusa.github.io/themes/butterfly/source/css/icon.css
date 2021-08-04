@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 2673431 */
-  src: url('//at.alicdn.com/t/font_2673431_lfuz8nvok.woff2?t=1627896044571') format('woff2'),
-       url('//at.alicdn.com/t/font_2673431_lfuz8nvok.woff?t=1627896044571') format('woff'),
-       url('//at.alicdn.com/t/font_2673431_lfuz8nvok.ttf?t=1627896044571') format('truetype');
+  src: url('//at.alicdn.com/t/font_2673431_kq3w0bft59.woff2?t=1628039800719') format('woff2'),
+       url('//at.alicdn.com/t/font_2673431_kq3w0bft59.woff?t=1628039800719') format('woff'),
+       url('//at.alicdn.com/t/font_2673431_kq3w0bft59.ttf?t=1628039800719') format('truetype');
 }
 
 .iconfont {
@@ -127,4 +127,12 @@
   position: relative;
   left: -1.5px;
   top: 0.5px;
+}
+
+.icon-tubiaozhizuomoban:before {
+  content: "\e604";
+  color: rgb(0, 0, 0);
+  font-size: 19px;
+  position: relative;
+  left: -2px;
 }

@@ -10,15 +10,13 @@ menu:
   首页: / || iconfont icon-icon
   时间轴: /archives/ || iconfont icon-rili
   标签: /tags/ || iconfont icon-biaoqian1
-  追番: /bangumis/index.html || iconfont icon-A-29
-  相册: /Gallery/index.html || iconfont icon-xiangce1
+  # Categories: /categories/ || fas fa-folder-open
+  生活||iconfont icon-tubiaozhizuomoban:
+   追番: /bangumis/index.html || iconfont icon-A-29
+   相册: /Gallery/index.html || iconfont icon-xiangce1
+  #Link: /link/ || fas fa-link
   留言板: /comments/index.html || iconfont icon-xiaoxi
   关于我: /about/about.html || iconfont icon-xin
-  # Categories: /categories/ || fas fa-folder-open
-  # List||fas fa-list:
-  #   Music: /music/ || fas fa-music
-  #   Movie: /movies/ || fas fa-video
-  # Link: /link/ || fas fa-link
 
 
 # Hide the child menu items in mobile sidebar
