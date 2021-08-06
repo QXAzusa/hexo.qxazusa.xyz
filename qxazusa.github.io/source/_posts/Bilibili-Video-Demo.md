@@ -1,7 +1,7 @@
 ---
-title: Bilibili Video Demo
+title: Bilibili Video
 date: 2021-07-13 16:53:20
-tags:
+tags: Hexo
 cover: https://cdn.jsdelivr.net/npm/qxazusa-blog/%E5%92%8C%E7%85%A6%E5%B8%8C%E6%9C%9B%E4%B9%8B%E9%A3%8E1920x1080-min.webp
 ---
 <div style="position: relative; padding: 30% 45%;">
@@ -30,4 +30,3 @@ cover: https://cdn.jsdelivr.net/npm/qxazusa-blog/%E5%92%8C%E7%85%A6%E5%B8%8C%E6%
 ```
 </div>
 按照其中的内容修改源码的中的aid的值为974165707
-

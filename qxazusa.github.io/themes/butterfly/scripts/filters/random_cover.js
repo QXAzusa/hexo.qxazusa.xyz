@@ -39,7 +39,7 @@ function randomCover () {
       return cover
     }
   } else {
-    cover = theme.default_top_img || 'https://cdn.jsdelivr.net/npm/qxazusa-blog/5005df7fec55a8b4980d0426566114f8c64df94a-min.jpg'
+    cover = theme.default_top_img || 'https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg'
     return cover
   }
 }
