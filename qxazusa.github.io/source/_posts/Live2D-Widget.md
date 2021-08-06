@@ -1,7 +1,8 @@
 ---
 title: Live2D Widget
 date: 2021-08-06 10:24:48
-tags: Live2d
+tags: Live2d Hexo
+description: 使博客的页面不再单调，分为普通版和可互动版本,部署起来相对简单
 ---
 # 无换装、互动
 
@@ -110,4 +111,3 @@ live2d-widget项目下的autoload.js
 ```
 
 **Done！**
-

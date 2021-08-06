@@ -3,6 +3,7 @@ title: Bilibili Video
 date: 2021-07-13 16:53:20
 tags: Hexo
 cover: https://cdn.jsdelivr.net/npm/qxazusa-blog/%E5%92%8C%E7%85%A6%E5%B8%8C%E6%9C%9B%E4%B9%8B%E9%A3%8E1920x1080-min.webp
+description: 实现了在各种平台上Bilibili播放窗口的自适应功能
 ---
 <div style="position: relative; padding: 30% 45%;">
 <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?cid=323407284&aid=247534745&page=1&as_wide=1&high_quality=1&danmaku=0" frameborder="no" scrolling="no"></iframe>

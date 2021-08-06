@@ -3,6 +3,7 @@ title: CSS魔改记录
 date: 2021-07-15 17:40:47
 tags: Butterfly
 cover: https://cdn.jsdelivr.net/npm/qxazusa-blog/atboq-yfkwm.webp
+description: 这里记录了本站使用CSS方法做美化的一些记录，仅限于Butterfly主题
 ---
 [butterfly](https://github.com/jerryc127/hexo-theme-butterfly)为主题的基础下进行修改
 
@@ -41,7 +42,7 @@ cover: https://cdn.jsdelivr.net/npm/qxazusa-blog/atboq-yfkwm.webp
 
 ## 全屏图片背景
 
-**缺点：**暗黑模式不再适用，建议在主题配置文件中关闭
+<b>缺点：</b>暗黑模式不再适用，建议在主题配置文件中关闭
 
 修改主题配置文件
 
