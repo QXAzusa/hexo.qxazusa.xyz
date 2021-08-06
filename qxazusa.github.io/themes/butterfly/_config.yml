@@ -25,7 +25,7 @@ hide_sidebar_menu_child: false
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: pale night #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -421,7 +421,7 @@ footer:
   owner:
     enable: true
     since: 2021
-  custom_text: 本站除特别说明外均以<a href="https://creativecommons.org/licenses/by-nc-sa/4.0" style='color:#FF6600'>CC BY-NC-SA 4.0（署名-非商业性使用-相同方式共享 4.0 国际）</a>进行许可
+  custom_text: 本站除特别说明外均以<a href="https://creativecommons.org/licenses/by-nc-sa/4.0" style='color:rgba(255,255,255,0.7)'>CC BY-NC-SA 4.0（署名-非商业性使用-相同方式共享 4.0 国际）</a>进行许可
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -483,20 +483,20 @@ site_verification:
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 
-# theme_color:
-#   enable: false
-#   main: "#49B1F5"
-#   paginator: "#00c4b6"
-#   button_hover: "#FF7242"
-#   text_selection: "#00c4b6"
-#   link_color: "#99a9bf"
-#   meta_color: "#858585"
-#   hr_color: "#A4D8FA"
-#   code_foreground: "#F47466"
-#   code_background: "rgba(27, 31, 35, .05)"
-#   toc_color: "#00c4b6"
-#   blockquote_padding_color: "#49b1f5"
-#   blockquote_background_color: "#49b1f5"
+ theme_color:
+   enable: false
+   main: "#49B1F5"
+   paginator: "#00c4b6"
+   button_hover: "#FF7242"
+   text_selection: "#00c4b6"
+   link_color: "#99a9bf"
+   meta_color: "#858585"
+   hr_color: "#A4D8FA"
+   code_foreground: "#F47466"
+   code_background: "rgba(27, 31, 35, .05)"
+   toc_color: "#00c4b6"
+   blockquote_padding_color: "#49b1f5"
+   blockquote_background_color: "#49b1f5"
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
@@ -585,7 +585,7 @@ ClickShowText:
 
 # Default display mode (網站默認的顯示模式)
 # light (default) / dark
-display_mode: light
+display_mode: dark
 
 # Beautify (美化頁面顯示)
 beautify:
@@ -651,7 +651,7 @@ aside:
     enable: true
     description:
     button:
-      enable: true
+      enable: false
       icon: iconfont icon-bilibili-linew
       text: 关注
       link: https://space.bilibili.com/148833361
@@ -732,7 +732,7 @@ readmode: true
 
 # dark mode
 darkmode:
-  enable: false
+  enable: true
   # Toggle Button to switch dark/light mode
   button: true
   # Switch dark/light mode automatically (自動切換 dark mode和 light mode)
@@ -846,11 +846,11 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-   - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/qxazusa-blog/css/icon.css" media="defer" onload="this.media='all'">
-   - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/qxazusa-blog/css/background.css">
-   - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/qxazusa-blog/css/partbackground.css">
-   - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/qxazusa-blog/css/new-footer.css">
-   - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/qxazusa-blog/css/live2d.css">
+   - <link rel="stylesheet" href="/css/icon.css" media="defer" onload="this.media='all'">
+   - <link rel="stylesheet" href="/css/background.css">
+#   - <link rel="stylesheet" href="/css/partbackground.css">
+   - <link rel="stylesheet" href="/css/footer.css">
+   - <link rel="stylesheet" href="/css/live2d.css">
    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
    - <meta name="baidu-site-verification" content="code-FyCXBkDakB" />
   bottom:
