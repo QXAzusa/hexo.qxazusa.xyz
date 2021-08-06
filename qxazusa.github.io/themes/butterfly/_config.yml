@@ -189,7 +189,7 @@ toc:
   style_simple: false
 
 post_copyright:
-  enable: false
+  enable: true
   decode: false
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
