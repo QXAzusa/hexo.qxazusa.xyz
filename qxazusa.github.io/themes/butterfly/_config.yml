@@ -88,7 +88,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://cdn.jsdelivr.net/npm/qxazusa-blog/avatar.webp
+  img: https://cdn.jsdelivr.net/npm/qxazusa-res/avatar.webp
   #img:https://blog-1301015343.cos.ap-nanjing.myqcloud.com/res/head-image%204.png
   effect: false
 
@@ -99,10 +99,10 @@ disable_top_img: true
 index_img:
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://cdn.jsdelivr.net/npm/qxazusa-blog/5005df7fec55a8b4980d0426566114f8c64df94a-min.webp
+default_top_img: https://cdn.jsdelivr.net/npm/qxazusa-res/5005df7fec55a8b4980d0426566114f8c64df94a-min.webp
 #default_top_img: https://blog-1301015343.cos.ap-nanjing.myqcloud.com/res/5005df7fec55a8b4980d0426566114f8c64df94a-min.jpg
 # The banner image of archive page
-archive_img: https://cdn.jsdelivr.net/npm/qxazusa-blog/%E8%8D%BB%E8%8A%B1%E5%B7%9E-1920x1080-min.webp
+archive_img: https://cdn.jsdelivr.net/npm/qxazusa-res/%E8%8D%BB%E8%8A%B1%E5%B7%9E-1920x1080-min.webp
 #archive_img: https://blog-1301015343.cos.ap-nanjing.myqcloud.com/res/%E8%8D%BB%E8%8A%B1%E5%B7%9E-1920x1080-min.png
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
@@ -132,12 +132,12 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-     - https://cdn.jsdelivr.net/npm/qxazusa-blog/cover/1.webp
-     - https://cdn.jsdelivr.net/npm/qxazusa-blog/cover/2.webp
-     - https://cdn.jsdelivr.net/npm/qxazusa-blog/cover/3.webp
-     - https://cdn.jsdelivr.net/npm/qxazusa-blog/cover/4.webp
-     - https://cdn.jsdelivr.net/npm/qxazusa-blog/cover/5.webp
-     - https://cdn.jsdelivr.net/npm/qxazusa-blog/cover/6.webp
+     - https://cdn.jsdelivr.net/npm/qxazusa-res/cover/1.webp
+     - https://cdn.jsdelivr.net/npm/qxazusa-res/cover/2.webp
+     - https://cdn.jsdelivr.net/npm/qxazusa-res/cover/3.webp
+     - https://cdn.jsdelivr.net/npm/qxazusa-res/cover/4.webp
+     - https://cdn.jsdelivr.net/npm/qxazusa-res/cover/5.webp
+     - https://cdn.jsdelivr.net/npm/qxazusa-res/cover/6.webp
 #     - https://blog-1301015343.cos.ap-nanjing.myqcloud.com/res/%E5%92%8C%E7%85%A6%E5%B8%8C%E6%9C%9B%E4%B9%8B%E9%A3%8E1920x1080-min.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
@@ -421,7 +421,7 @@ footer:
   owner:
     enable: true
     since: 2021
-  custom_text: <a href="https://blog.qxazusa.xyz" style='color:var(--foot-front)' target ="_self">国内节点</a>部署于<a href="https://starxn.com" style='color:var(--foot-front)' target ="_blank">星辰云</a> | <a href="https://blogs.qxazusa.xyz" style='color:var(--foot-front)'  target ="_self">境外节点</a>部署于Github | CDN服务由<a href="https://www.jsdelivr.com" style='color:var(--foot-front)' target ="_self">jsDelivr</a>提供<br>本站除特别说明外均以<a href="https://creativecommons.org/licenses/by-nc-sa/4.0" style='color:var(--foot-front)' target ="_blank">CC BY-NC-SA 4.0（署名-非商业性使用-相同方式共享 4.0 国际）</a>进行许可
+  custom_text: <a href="https://blog.qxazusa.xyz" style='color:var(--foot-front)' target ="_self">国内节点</a>部署于<a href="https://starxn.com" style='color:var(--foot-front)' target ="_blank">星辰云</a> | <a href="https://blogs.qxazusa.xyz" style='color:var(--foot-front)'  target ="_self">境外节点</a>部署于<a href="https://github.com/qxazusa/qxazusa.github.io" style='color:var(--foot-front)' target ="_self">Github</a> | CDN服务由<a href="https://www.jsdelivr.com" style='color:var(--foot-front)' target ="_self">jsDelivr</a>提供<br>本站除特别说明外均以<a href="https://creativecommons.org/licenses/by-nc-sa/4.0" style='color:var(--foot-front)' target ="_blank">CC BY-NC-SA 4.0（署名-非商业性使用-相同方式共享 4.0 国际）</a>进行许可
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -514,7 +514,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: https://cdn.jsdelivr.net/npm/qxazusa-blog/5005df7fec55a8b4980d0426566114f8c64df94a-min.webp
+background: https://cdn.jsdelivr.net/npm/qxazusa-res/5005df7fec55a8b4980d0426566114f8c64df94a-min.webp
 
 # Footer Background
 footer_bg: false
@@ -850,13 +850,13 @@ inject:
    - <link rel="stylesheet" href="/css/background.css">
 #   - <link rel="stylesheet" href="/css/partbackground.css">
    - <link rel="stylesheet" href="/css/footer.css">
-   - <link rel="stylesheet" href="/css/live2d.css">
+#   - <link rel="stylesheet" href="/css/live2d.css">
    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
    - <meta name="baidu-site-verification" content="code-FyCXBkDakB" />
   bottom:
     # - <script src="xxxx"></script>
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script><meting-js  server="netease"  type="playlist" id="5161331134" fixed="true" autoplay="false" loop="all" order="list" preload="auto" list-folded="ture" list-max-height="500px" lrc-type="0"></meting-js>
-    - <script src="https://cdn.jsdelivr.net/npm/qxazusa-blog//live2d-widget/autoload.js"></script>
+    - <script src="https://cdn.jsdelivr.net/npm/qxazusa-live2d-widget@1.0.1/autoload.js"></script>
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
