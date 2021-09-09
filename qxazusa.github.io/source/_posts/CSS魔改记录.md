@@ -8,6 +8,7 @@ description: 这里记录了本站使用CSS方法做美化的一些记录，仅�
 [butterfly](https://github.com/jerryc127/hexo-theme-butterfly)为主题的基础下进行修改
 
 ## 嵌入方法
+
 在“博客根目录\themes\butterfly\source\css”下新建CSS文件
 
 打开主题配置文件,在head下方写入  
@@ -28,6 +29,10 @@ description: 这里记录了本站使用CSS方法做美化的一些记录，仅�
 
 ## 模块半透明
 
+### 方法一：嵌入CSS
+
+<b>缺点：</b>不适用于暗黑模式
+
 ```css
 #recent-posts>.recent-post-item,.layout>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post
 {
@@ -40,9 +45,25 @@ description: 这里记录了本站使用CSS方法做美化的一些记录，仅�
 }
 ```
 
-## 全屏图片背景
+### 方法二：修改主题文件
 
-<b>缺点：</b>暗黑模式不再适用，建议在主题配置文件中关闭
+**diff 代码块仅做色块标记，删除 +、- 号之后记得补全空格，调整缩进。**
+
+`[Blogroot]\themes\butterfly\source\css\var.styl`
+
+```diff
+- $card-bg = $white
++ $card-bg = rgba(255,255,255,.85)
+```
+
+`[Blogroot]\themes\butterfly\source\css\_mode\darkmode.styl`
+
+```diff
+- --card-bg: #121212
++ --card-bg: rgba(0,0,0,.5)
+```
+
+## 全屏图片背景
 
 修改主题配置文件
 
@@ -66,6 +87,10 @@ disable_top_img: true
 ```
 
 ## 半透明底部
+
+### 方法一：嵌入CSS
+
+<b>缺点：</b>不适用于暗黑模式
 
 ```css
 #footer {
@@ -91,6 +116,51 @@ disable_top_img: true
         }
 
 ```
+
+### 方法二：修改主题文件
+
+**diff 代码块仅做色块标记，删除 +、- 号之后记得补全空格，调整缩进。**
+
+`[Blogroot]\themes\butterfly\source\css\var.styl`
+
+```diff
+在":root"下添加
++ --foot-front: #FE2C83 !important
+```
+
+`[Blogroot]\themes\butterfly\source\css\_mode\darkmode.styl`
+
+```diff
+在  [data-theme='dark']  下添加
++ --foot-front: rgba(255,255,255,0.7) !important
+```
+
+嵌入CSS
+
+```css
+#footer {
+    background: rgba(255,255,255,.15);/* 其中.15为透明度，根据需要修改即可 */
+    color: #000;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    backdrop-filter: saturate(100%) blur(5px)
+}
+
+    #footer::before {
+        background: rgba(255,255,255,.15)
+            /* 其中.15为透明度，根据需要修改即可 */
+    }
+
+    #footer #footer-wrap {
+        color: var(--foot-front)
+	}
+
+        #footer #footer-wrap a {
+            color: var(--foot-front)
+        }
+```
+
+
 
 ## 引入阿里矢量图标库
 

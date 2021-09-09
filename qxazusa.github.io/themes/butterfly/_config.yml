@@ -1,4 +1,4 @@
-# Main menu navigation (導航目錄)
+﻿# Main menu navigation (導航目錄)
 # --------------------------------------
 
 # format: name: link || icon
@@ -421,7 +421,7 @@ footer:
   owner:
     enable: true
     since: 2021
-  custom_text: <a href="https://blog.qxazusa.xyz" style='color:var(--foot-front)' target ="_self">国内节点</a>部署于<a href="https://starxn.com" style='color:var(--foot-front)' target ="_blank">星辰云</a> | <a href="https://blogs.qxazusa.xyz" style='color:var(--foot-front)'  target ="_self">境外节点</a>部署于<a href="https://github.com/qxazusa/qxazusa.github.io" style='color:var(--foot-front)' target ="_self">Github</a> | CDN服务由<a href="https://www.jsdelivr.com" style='color:var(--foot-front)' target ="_self">jsDelivr</a>提供<br>本站除特别说明外均以<a href="https://creativecommons.org/licenses/by-nc-sa/4.0" style='color:var(--foot-front)' target ="_blank">CC BY-NC-SA 4.0（署名-非商业性使用-相同方式共享 4.0 国际）</a>进行许可
+  custom_text: <a href="https://qxazusa.xyz" style='color:var(--foot-front)' target ="_self">国内节点</a>部署于<a href="https://vercel.com" style='color:var(--foot-front)' target ="_blank">Vercel</a> | <a href="https://blogs.qxazusa.xyz" style='color:var(--foot-front)'  target ="_self">境外节点</a>部署于<a href="https://github.com/qxazusa/qxazusa.github.io" style='color:var(--foot-front)' target ="_self">Github</a> | CDN服务由<a href="https://www.jsdelivr.com" style='color:var(--foot-front)' target ="_self">jsDelivr</a>提供<br>本站除特别说明外均以<a href="https://creativecommons.org/licenses/by-nc-sa/4.0" style='color:var(--foot-front)' target ="_blank">CC BY-NC-SA 4.0</a>进行版权许可
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -429,7 +429,7 @@ footer:
 
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics: 929f3875275b6e9423108c87cf6f6c0a
+baidu_analytics: da7043e7c4271d682ea88643bb9cc5e0
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
@@ -689,8 +689,8 @@ aside:
 # busuanzi count for PV / UV in site
 # 訪問人數
 busuanzi:
-  site_uv: true
-  site_pv: true
+  site_uv: false
+  site_pv: false
   page_pv: true
 
 # Time difference between publish date and now (網頁運行時間)
@@ -715,7 +715,7 @@ change_font_size: false
 
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
-  enable: true
+  enable: false
   # The text of a button
   default: 繁
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
