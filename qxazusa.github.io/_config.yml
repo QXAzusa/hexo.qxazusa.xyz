@@ -4,7 +4,7 @@
 
 # Site
 title: 浅笑Azusa的小世界
-subtitle: 'Qxazusa.xyz'
+subtitle: ''
 description: ''
 keywords:
 author: 浅笑Azusa
@@ -102,9 +102,9 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://github.com/QXAzusa/qxazusa.github.io
-  branch: main
+ type: git
+ repo: https://github.com/QXAzusa/qxazusa.github.io
+ branch: main
 
  # envelope_comment
  # see https://akilar.top/posts/e2d3c450/
