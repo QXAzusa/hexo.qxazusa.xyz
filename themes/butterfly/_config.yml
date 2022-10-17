@@ -272,7 +272,7 @@ comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
   use:
-   - Twikoo
+  # - Twikoo
   #- Disqusjs
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -421,7 +421,7 @@ footer:
   owner:
     enable: true
     since: 2021
-  custom_text: <a href="https://qxazusa.xyz" style='color:var(--foot-front)' target ="_self">国内节点</a>部署于<a href="https://vercel.com" style='color:var(--foot-front)' target ="_blank">Vercel</a> | <a href="https://blogs.qxazusa.xyz" style='color:var(--foot-front)'  target ="_self">境外节点</a>部署于<a href="https://github.com/qxazusa/qxazusa.github.io" style='color:var(--foot-front)' target ="_self">Github</a> | CDN服务由<a href="https://www.jsdelivr.com" style='color:var(--foot-front)' target ="_self">jsDelivr</a>提供<br>本站除特别说明外均以<a href="https://creativecommons.org/licenses/by-nc-sa/4.0" style='color:var(--foot-front)' target ="_blank">CC BY-NC-SA 4.0</a>进行版权许可
+  custom_text: <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">苏ICP备2021044611号-1</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32081202000264" target="_blank" rel="noopener">苏公网安备 32081202000264号</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" rel="noopener" href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral">本站由&nbsp;<img src="https://static.qxazusa.xyz/pubilc/image/upyun_logo.png" width="2.8%" align="top">&nbsp;提供CDN加速服务</a>
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -429,7 +429,7 @@ footer:
 
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics: da7043e7c4271d682ea88643bb9cc5e0
+baidu_analytics: 
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
