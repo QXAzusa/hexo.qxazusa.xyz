@@ -1,6 +1,2 @@
-
-qxazusa.github.io/.deploy_git/
-res/
-res.txt
-live2d_api/
-live2d-widget/
+/node_modules
+/public
