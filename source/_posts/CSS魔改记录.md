@@ -2,7 +2,7 @@
 title: CSS魔改记录
 date: 2021-07-15 17:40:47
 tags: Butterfly
-cover: https://cdn.jsdelivr.net/npm/qxazusa-res/cover/6.webp
+cover: https://static.qxazusa.xyz/pubilc/image/cover/6.png
 description: 这里记录了本站使用CSS方法做美化的一些记录，仅限于Butterfly主题
 ---
 [butterfly](https://github.com/jerryc127/hexo-theme-butterfly)为主题的基础下进行修改
