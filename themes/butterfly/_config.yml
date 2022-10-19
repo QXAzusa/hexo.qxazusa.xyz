@@ -45,9 +45,9 @@ copy:
 #   icon: link || the description
 social:
 #   iconfont icon-huaban88: https://github.com/qxazusa || Github
-   iconfont icon-Telegram: https://t.me/QXAzusa || Telegram
+   #iconfont icon-Telegram: https://t.me/QXAzusa || Telegram
    iconfont icon-bilibili-line: https://space.bilibili.com/148833361 || Bilibili
-   iconfont icon-you-tube: https://www.youtube.com/channel/UCs99qqi1OuBItpkqtMAD4jA || Youtube
+   #iconfont icon-you-tube: https://www.youtube.com/channel/UCs99qqi1OuBItpkqtMAD4jA || Youtube
 
 # search (搜索)
 # --------------------------------------
@@ -691,7 +691,7 @@ aside:
 busuanzi:
   site_uv: false
   site_pv: false
-  page_pv: true
+  page_pv: false
 
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
