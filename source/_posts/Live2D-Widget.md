@@ -2,7 +2,7 @@
 title: Live2D Widget
 date: 2021-08-06 10:24:48
 tags: [Live2D,Hexo]
-cover: https://static.qxazusa.xyz/pubilc/image/cover/1.png
+cover: https://static.qxazusa.xyz/public/image/cover/1.png
 description: 使博客的页面不再单调，分为普通版和可互动版本,部署起来相对简单
 ---
 # 无换装、互动
