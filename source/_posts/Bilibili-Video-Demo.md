@@ -24,7 +24,7 @@ description: 实现了在各种平台上Bilibili播放窗口的自适应功能
 
 ### 例子：
 
-这是从bilibili视频分享嵌入代码复制下来的内容<img src="https://cdn.jsdelivr.net/npm/qxazusa-res/2021-07-15 235713.webp" />
+这是从bilibili视频分享嵌入代码复制下来的内容<img src="https://static.qxazusa.xyz/blog/2021-07-15 235713.webp" />
 <div>
 ```html
 <iframe src="//player.bilibili.com/player.html?aid=974165707&bvid=BV1t44y127ad&cid=370527205&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
