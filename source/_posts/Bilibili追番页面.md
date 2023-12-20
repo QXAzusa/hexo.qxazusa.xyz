@@ -2,7 +2,7 @@
 title: Bilibili追番页面
 date: 2021-08-06 11:16:10
 tags: Hexo
-cover: https://static.qxazusa.xyz/public/image/cover/5.png
+cover: https://static.qxazusa.xyz/public/image/cover/5.png?x-image-process=style/webp
 description: 用于显示个人在bilibili的追番内容，参考Github项目hexo-bilibili-bangumi
 ---
 
