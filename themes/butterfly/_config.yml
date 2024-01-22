@@ -854,12 +854,12 @@ inject:
 #   - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
    - <link href="https://cdn.staticfile.org/font-awesome/6.2.0/css/fontawesome.min.css" rel="stylesheet">
 #   - <meta name="baidu-site-verification" content="code-FyCXBkDakB" />
-   - <script src="https://cdn.staticfile.org/jquery/3.6.1/jquery.min.js"></script>
+   - <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script>
    - <script src="https://static.qxazusa.xyz/blog/script/stop-maintenance.js"></script>
   bottom:
     # - <script src="xxxx"></script>
     - <link rel="stylesheet" href="https://static.qxazusa.xyz/public/script/Aplayer@1.10.1/APlayer.min.css"><script src="https://static.qxazusa.xyz/public/script/Aplayer@1.10.1/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script><meting-js  server="netease"  type="playlist" id="5161331134" fixed="true" autoplay="false" loop="all" order="list" preload="auto" list-folded="ture" list-max-height="500px" lrc-type="0"></meting-js>
-    - <script src="https://cdn.jsdelivr.net/npm/qxazusa-live2d-widget@1.0.1/autoload.js"></script>
+    - <script src="https://static.qxazusa.xyz/live2D/Widget/autoload.js"></script>
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
