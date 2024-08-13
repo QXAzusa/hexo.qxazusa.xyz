@@ -859,7 +859,7 @@ inject:
   bottom:
     # - <script src="xxxx"></script>
     - <link rel="stylesheet" href="https://static.qxazusa.xyz/public/script/Aplayer@1.10.1/APlayer.min.css"><script src="https://static.qxazusa.xyz/public/script/Aplayer@1.10.1/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script><meting-js  server="netease"  type="playlist" id="5161331134" fixed="true" autoplay="false" loop="all" order="list" preload="auto" list-folded="ture" list-max-height="500px" lrc-type="0"></meting-js>
-    - <script src="https://static.qxazusa.xyz/live2D/Widget/autoload.js"></script>
+    - <script src="https://static.qxazusa.xyz/live2D/widget/autoload.js"></script>
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
