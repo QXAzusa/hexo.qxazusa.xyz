@@ -88,7 +88,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://static.qxazusa.xyz/public/image/avatar.png?x-image-process=style/webp
+  img: https://static.qxazusa.xyz/public/image/avatar.png
   #img:https://blog-1301015343.cos.ap-nanjing.myqcloud.com/res/head-image%204.png
   effect: false
 
@@ -132,12 +132,12 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-     - https://static.qxazusa.xyz/public/image/cover/1.png?x-image-process=style/webp
-     - https://static.qxazusa.xyz/public/image/cover/2.png?x-image-process=style/webp
-     - https://static.qxazusa.xyz/public/image/cover/3.png?x-image-process=style/webp
-     - https://static.qxazusa.xyz/public/image/cover/4.png?x-image-process=style/webp
-     - https://static.qxazusa.xyz/public/image/cover/5.png?x-image-process=style/webp
-     - https://static.qxazusa.xyz/public/image/cover/6.png?x-image-process=style/webp
+     - https://static.qxazusa.xyz/public/image/cover/1.png
+     - https://static.qxazusa.xyz/public/image/cover/2.png
+     - https://static.qxazusa.xyz/public/image/cover/3.png
+     - https://static.qxazusa.xyz/public/image/cover/4.png
+     - https://static.qxazusa.xyz/public/image/cover/5.png
+     - https://static.qxazusa.xyz/public/image/cover/6.png
 #     - https://blog-1301015343.cos.ap-nanjing.myqcloud.com/res/%E5%92%8C%E7%85%A6%E5%B8%8C%E6%9C%9B%E4%B9%8B%E9%A3%8E1920x1080-min.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)

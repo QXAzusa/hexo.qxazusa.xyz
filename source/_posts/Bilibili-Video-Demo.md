@@ -2,7 +2,7 @@
 title: Bilibili Video
 date: 2021-07-13 16:53:20
 tags: Hexo
-cover: https://static.qxazusa.xyz/public/image/cover/4.png?x-image-process=style/webp
+cover: https://static.qxazusa.xyz/public/image/cover/4.png
 description: 实现了在各种平台上Bilibili播放窗口的自适应功能
 ---
 <div style="position: relative; padding: 30% 45%;">
