@@ -1,1 +1,1 @@
-# qxazusa.xyz系网站的项目源码
+# Source Code of [hexo.qxazusa.xyz](https://hexo.qxazusa.xyz)
